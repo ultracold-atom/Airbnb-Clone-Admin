@@ -1,0 +1,163 @@
+body{
+    margin: 0px 0px;
+    font-family: Roboto, Helvetica, sans-serif;
+    color: #484848;
+    background-color: #484848;
+ }
+ 
+ 
+ h3{
+     font-size: 24px;
+     line-height: 1.25em;
+ }
+ 
+ p{
+     font-size: 16px;
+     line-height: 1.75em;
+ }
+ 
+ a{
+     text-decoration: none;
+     color: #008489 !important;
+ }
+ 
+ h1{
+     padding-bottom: 40px;
+     font-weight: normal;
+ }
+
+
+/* Header Section */
+
+.cards{
+  display: flex;
+  flex-direction: row;  
+}
+
+.card-1{
+  visibility: visible;    
+}
+
+
+.first-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.form-section{
+    width: 33.5rem;
+    height: 40.625rem;
+    background-color: #ffffff;
+    padding-left: 40px;
+    padding-top : 30px;
+    border-radius: 17px;
+    margin-top: 50px;
+    margin-left: 10rem;
+}
+
+.form-heading{
+    color: #484848 !important;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.6px;
+}
+
+
+.form-subheading{
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: -5px;
+}
+
+
+.location{
+    height: 3.5rem;
+    width: 29rem;
+    background-color: #ffffff;
+    border: 1.5px solid #B0B0B0;
+    margin-top: -0px ;
+    margin-right: 30px;
+    border-radius: 5px;
+    padding-top: 0.3rem;
+    padding-left: 16px;  
+}
+
+.location:focus{
+  border: 2px solid #484848;  
+}
+
+.location:focus::placeholder{
+  font-size:13px;  
+}
+
+
+#address{
+  height: 5.5rem;  
+  margin-bottom: 0px;
+}
+
+.feature-options{
+  width: 365px;
+  height: 70px;
+  font-size: 21px;
+  font-weight: normal;
+  border: 1.5px solid #B0B0B0; 
+  border-radius: 10px;
+  margin-top: 12px;
+  padding: 20px 90px;
+  background-color: #ffffff;
+  color: #484848;   
+}
+
+.feature-options:hover{
+  border:2.5px solid #484848;  
+}
+
+.feature-options:focus{
+  border:2.5px solid #484848;    
+  background-color: #F7F7F7; 
+}
+
+.toggle{
+  position: absolute;
+  left: -100vw;
+}
+
+input[type=checkbox]:checked + .feature-options {
+  border:2.5px solid #484848;    
+  background-color: #F7F7F7; 
+}
+
+.photo-title{
+   margin-top: 30px; 
+} 
+
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+
+
+.upload-host{
+  width: 220px;
+ height: 50px;
+ background-image: linear-gradient(to right, #E61E4D 0%, #E31C5F 50%, #D70466 100%) !important;
+ color:white;
+ font-size: 17px;
+ border-radius: 12px;
+ border: none;
+ margin-left: 35px;
+ margin-top: 10px;
+}
+
+
+
